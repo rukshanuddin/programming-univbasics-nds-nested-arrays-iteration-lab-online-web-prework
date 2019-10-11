@@ -1,5 +1,5 @@
 def join_ingredients(src)
-  src.each do |food| 
+  src.each do |food|
     puts "I love #{food[0]} and #{food[1] on my pizza}"# Given an Array of 2-element Arrays ( [ [food1, food2], [food3, # food4]....[foodN, foodM]]):
   #
   # Build a new Array that contains strings where each pair of foods is
