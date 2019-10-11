@@ -1,9 +1,10 @@
 def join_ingredients(src)
   array=[]
   counter = 0
-
-    array.push("I love #{src[counter][0]}")
-
+  while counter < src.length
+    array.push("I love #{src[counter][0]} and #{src[counter][1]} on my pizza")
+    counter +=1
+  end
 
   # Given an Array of 2-element Arrays ( [ [food1, food2], [food3, # food4]....[foodN, foodM]]):
   #
