@@ -1,8 +1,9 @@
 def join_ingredients(src)
   array=[]
-  src.each  do |food|
-    array.push("I love #{food[0]}")
-  end
+  counter = 0
+
+    array.push("I love #{src[counter][0]}")
+
 
   # Given an Array of 2-element Arrays ( [ [food1, food2], [food3, # food4]....[foodN, foodM]]):
   #
