@@ -1,6 +1,6 @@
 def join_ingredients(src)
   array=[]
-  src.each |food| do
+  src.each  do |food|
     array.push("I love #{food[0]}")
   end
 
