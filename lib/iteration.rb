@@ -1,6 +1,7 @@
 def join_ingredients(src)
+  new_array =[]
   src.each do |food|
-    puts "I love #{food[0]} and #{food[1]} on my pizza"# Given an Array of 2-element Arrays ( [ [food1, food2], [food3, # food4]....[foodN, foodM]]):
+    new_array.push("I love #{food[0]} and #{food[1]} on my pizza")# Given an Array of 2-element Arrays ( [ [food1, food2], [food3, # food4]....[foodN, foodM]]):
   end
   # Build a new Array that contains strings where each pair of foods is
   # inserted into this template:
